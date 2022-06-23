@@ -21,9 +21,6 @@ public class BeforeMainUI extends javax.swing.JFrame {
             public void run() {
                 try {
                     for (int i = 0; i <= 100; i++) {
-                        if (i == 57){
-                            Thread.sleep(5000);
-                        }
                         jProgressBar1.setValue(i);
                         Thread.sleep(100);
                         if (i == 100) {
